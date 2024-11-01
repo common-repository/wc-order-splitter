@@ -1,0 +1,257 @@
+# Copyright (C) 2024 YoOhw.com
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Order Splitter 1.3.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-order-splitter\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-27T08:32:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: wc-order-splitter\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Order Splitter"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wc-order-splitter/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin helps you to simply split an order by product and quantity."
+msgstr ""
+
+#. Author of the plugin
+msgid "YoOhw.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yoohw.com"
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:14
+msgid "Invalid nonce."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:21
+msgid "No orders selected."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:87
+msgid "Order moved to trash by user action."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:101
+msgid "Items returned from order #%s."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:102
+msgid "This order was returned and all items were restored to the original order #%s."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:107
+msgid "Successfully returned %d orders to their original orders."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-return-order-bulk-action.php:114
+msgid "%s order has been returned to its original order."
+msgid_plural "%s orders have been returned to their original orders."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-category.php:26
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-default.php:78
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-default.php:144
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-stock-status.php:26
+msgid "Original order not found"
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-category.php:48
+msgid "Products belong to multiple categories. Cannot split the order."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-category.php:62
+msgid "There is no different category to split."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-category.php:161
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-default.php:260
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-stock-status.php:144
+msgid "This order has been split from the original order #%s."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-category.php:182
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-default.php:271
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-stock-status.php:165
+msgid "This order has been split to order #%s."
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-default.php:70
+msgid "Order not found"
+msgstr ""
+
+#: inc/backend/actions/yoos-wc-order-splitter-split-order-by-stock-status.php:45
+msgid "There is no different stock status to split."
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-edit-order-split-button.php:41
+msgid "Split order"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:19
+msgid "Orders"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:29
+msgid "You are not allowed to access Order Splitter settings."
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:35
+msgid "Order splitter"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:41
+msgid "Allowed status"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:43
+msgid "Choose order statuses that allow for splitting and duplication."
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:48
+msgid "Select order statuses"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:54
+msgid "Excluded fee"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:56
+msgid "Exclude shipping fees for the split order."
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:61
+msgid "Disable email"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:63
+msgid "Select who should not receive split order emails."
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:67
+msgid "None"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:68
+msgid "For customers"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:69
+msgid "For administrators"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:70
+msgid "For everyone"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:74
+msgid "Permission"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:76
+msgid "Enable the shop manager to split orders."
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:81
+msgid "Order labels"
+msgstr ""
+
+#: inc/backend/yoos-wc-order-splitter-settings.php:83
+msgid "Enable the labels for split orders."
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-notices.php:27
+msgid "WooCommerce Order Splitter requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:37
+#: inc/cores/yoos-wc-order-splitter-script.php:39
+msgid "Error occurred while fetching order items."
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:38
+msgid "Unable to fetch order items."
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:40
+msgid "Order split successfully. New order ID:"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:41
+msgid "Failed to split order."
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:42
+msgid "Product"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:43
+msgid "Order"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:44
+msgid "New order #"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:45
+msgid "Quantity"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:46
+msgid "Split quantity"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:47
+msgid "Split it"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:48
+msgid "Default"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:49
+msgid "Category"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:50
+msgid "Stock status"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:51
+msgid "Tag (Premium)"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:52
+msgid "Vendor (Premium)"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:53
+msgid "Cancel"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:54
+msgid "Splitting..."
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:55
+msgid "Return to original order"
+msgstr ""
+
+#: inc/cores/yoos-wc-order-splitter-script.php:56
+msgid "Please select at least one order."
+msgstr ""
